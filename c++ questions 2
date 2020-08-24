@@ -1,0 +1,42 @@
+solution:1
+
+#include <iostream>
+using namespace std;
+int main() {
+            int integertype;
+            char chartype;
+            float floattype;
+            double doubletype;
+            
+            cout<<"size of char:"<<
+            sizeof(chartype)<<"/n";
+            
+            cout<<"size of int:"<<
+            sizeof(integertype)<<"/n";
+            
+            cout<<"size of float:"<<
+            sizeof(floattype)<<"/n";
+            
+            cout<<"size of double:"<<
+            sizeof(doubletype)<<"/n";
+            
+            return 0;
+            
+            }
+           
+solution:2
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    float a,b,multiplication;
+    cout<<"enter two numbers:";
+    cin>>a>>b;
+    multiplication = a*b;
+    cout<<"product="<<multiplication;
+
+    return 0;
+
+}
